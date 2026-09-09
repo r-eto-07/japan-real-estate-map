@@ -1,0 +1,25 @@
+# Secrets
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Python
+backend/.venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# 生成スクリプトがダウンロードする巨大な元データ（N03 zip / 展開物）
+scripts/data/raw/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
